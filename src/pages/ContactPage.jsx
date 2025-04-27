@@ -2,13 +2,15 @@ import { Box, Heading, Image } from "@chakra-ui/react";
 import React from "react";
 import ContactBanner from "../assets/contact-banner.jpg";
 import Form from "../components/Form";
+import { useTranslation } from "react-i18next";
 
 function ContactPage() {
+    const { t } = useTranslation()
     return (
         <>
             <Box {...css.contact}>
                 <Box className="container">
-                    <Heading {...css.title}>Contact Us</Heading>
+                    <Heading {...css.title}>{t("Contact Us")}</Heading>
                 </Box>
             </Box>
             <Form />
@@ -24,7 +26,7 @@ const css = {
         backgroundSize: "cover",
         backgroundPosition: "center",
         padding: "84px 0",
-        backgroundRepeat:"no-repeat"
+        backgroundRepeat: "no-repeat"
     },
     title: {
         color: "#fff",

@@ -8,9 +8,11 @@ import {
     Textarea,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { toast } from "react-toastify";
 
 function Form() {
+    const { t } = useTranslation()
     const [nameValue, setNameValue] = useState("");
     const [numberValue, setNumberValue] = useState("");
     const [textValue, setTextValue] = useState("");
@@ -76,14 +78,12 @@ function Form() {
                     justifyContent={"space-between"}
                     align={"center"}>
                     <Box>
-                        <Heading {...css.name}>Contact </Heading>
+                        <Heading {...css.name}>{t("Contact")} </Heading>
                         <Heading {...css.title}>
-                            Have questions? feel free to write us
+                            {t("Have questions? feel free to write us")}
                         </Heading>
                         <Text {...css.text}>
-                            If you have any questions or need assistance, please feel free to
-                            contact us. We are here to help and ready to respond promptly to
-                            your inquiries.
+                            {t("If you have any questions or need assistance, please feel free to contact us. We are here to help and ready to respond promptly to your inquiries.")}
                         </Text>
                     </Box>
                     <Box width={{ base: "100%", md: "560px" }}>
@@ -91,38 +91,34 @@ function Form() {
                             value={nameValue}
                             onChange={(e) => changeName(e.target.value)}
                             {...css.input}
-                            placeholder="Name"
+                            placeholder={t("Name")}
                         />
                         <Input
                             value={emailValue}
                             onChange={(e) => changeEmail(e.target.value)}
                             {...css.input}
-                            placeholder="Email"
+                            placeholder={t("Email")}
                         />
                         <Input
                             value={numberValue}
                             onChange={(e) => changeNumber(e.target.value)}
                             {...css.input}
-                            placeholder="Phone"
+                            placeholder={t("Phone")}
                         />
                         <Textarea
                             value={textValue}
                             onChange={(e) => changeText(e.target.value)}
                             {...css.textarea}
-                            placeholder="Message"
+                            placeholder={t("Message")}
                         />
                         <Button type="submit" onClick={sendMessage} {...css.button}>
-                            Submit
+                            {t("Submit")}
                         </Button>
                     </Box>
                 </Flex>
-                <Heading {...css.subname}>Find Us on Map</Heading>
+                <Heading {...css.subname}>{t("Find Us on Map")}</Heading>
                 <Text {...css.texts}>
-                    We are located in the heart of the city, easily accessible by public
-                    transport and just a few minutes away from major landmarks. Whether
-                    you’re traveling by car or train, finding us is simple and
-                    straightforward. Use the map below to get directions and plan your
-                    visit.
+                    {t("text")}
                 </Text>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.142235111557!2d69.26869407587436!3d41.30576927131033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b275d9925db%3A0x10f8036f160affd6!2sChimkent%20Street%207%2C%20100114%2C%20Tashkent%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1734779455096!5m2!1sen!2s"

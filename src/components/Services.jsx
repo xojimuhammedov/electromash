@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 const Services = () => {
     const { t, i18n } = useTranslation()
     return (
-        <Box p={'24px 0'}>
+        <Box p={'24px 0'} pb={'72px'}>
             <Box className='container'>
-                <Heading {...css.title}>Дейности</Heading>
+                <Heading {...css.title}>{t("Дейности")}</Heading>
                 <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} mt={10}>
                     {serviceData?.map((service) => (
                         <Box
@@ -36,7 +36,7 @@ const Services = () => {
                                 </Heading>
                                 <Divider borderColor="red.500" width="50px" mb={4} />
                                 <Link to={`/services/${service?.id}`}>
-                                    <Text {...css.link}>Learn More</Text>
+                                    <Text {...css.link}>{t("Learn More")}</Text>
                                 </Link>
                             </Box>
                         </Box>

@@ -1,8 +1,10 @@
 import { Box, Heading, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import HeaderBanner from "../assets/header-banner.png";
+import { useTranslation } from "react-i18next";
 
 function Header() {
+    const { t } = useTranslation()
     return (
         <Box {...css.header}>
             <div class="overlay"></div>
@@ -10,7 +12,7 @@ function Header() {
                 <Heading {...css.title}>
                     ПОВЕЧЕ ОТ 25 ГОДИНИ
                 </Heading>
-                <Text {...css.text}>КАЧЕСТВО И КОРЕКТНОСТ</Text>
+                <Text {...css.text}>{t("КАЧЕСТВО И КОРЕКТНОСТ")}</Text>
             </Box>
         </Box>
     );

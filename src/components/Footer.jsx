@@ -20,19 +20,19 @@ function Footer() {
             <Box className="container">
                 <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={"24px"}>
                     <Flex align={"center"} direction={"column"}>
-                        <Heading {...css.name}>Phone</Heading>
+                        <Heading {...css.name}>{t("Phone")}</Heading>
                         <Link {...css.links} target="_blank" href={"tel:+998335898888"}>
                             +998 33 589 88 88
                         </Link>
                     </Flex>
                     <Flex align={"center"} direction={"column"}>
-                        <Heading {...css.name}>Email</Heading>
+                        <Heading {...css.name}>{t("Email")}</Heading>
                         <Link {...css.links} href={"mailto:info@travel4you.uz"}>
                             info@travel4you.uz
                         </Link>
                     </Flex>
                     <Flex align={"center"} direction={"column"}>
-                        <Heading {...css.name}>Locations</Heading>
+                        <Heading {...css.name}>{t("Locations")}</Heading>
                         <Link
                             {...css.links}
                             target="_blank"
@@ -48,7 +48,7 @@ function Footer() {
                     align={"center"}
                     mt={"36px"}>
                     <Flex direction={"column"} align={"center"}>
-                        <Heading {...css.name}>Social media</Heading>
+                        <Heading {...css.name}>{t("Social media")}</Heading>
                         <Flex mt={"12px"} gap={"12px"} align={"center"}>
                             <Link
                                 href="https://www.instagram.com/whiterivertour/?next=%2Fdirect%2Finbox%2F#"
