@@ -9,7 +9,7 @@ import { serviceData } from "../data";
 function Navbar() {
     const { t, i18n } = useTranslation()
     return (
-        <Box p={"18px 0"}>
+        <Box p={"24px 0"}>
             <Box className="container">
                 <Flex {...css.list}>
                     <Alink to="/">

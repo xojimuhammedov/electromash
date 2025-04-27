@@ -5,9 +5,9 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Services from './components/Services'
 import ContactPage from './pages/ContactPage'
-import ProjectCards from './components/Projects'
 import About from './components/About'
 import ServicesAboutPage from './pages/ServicesAboutPage'
+import ProjectsPage from './pages/ProjectsPage'
 
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
         } />
         <Route path='/project' element={
           <>
-            <ProjectCards />
+            <ProjectsPage />
           </>
         } />
         <Route path='/services/:id' element={<ServicesAboutPage />} />

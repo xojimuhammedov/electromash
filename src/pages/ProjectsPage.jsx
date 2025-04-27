@@ -1,31 +1,31 @@
 import { Box, Heading, Image } from "@chakra-ui/react";
 import React from "react";
 import ContactBanner from "../assets/banner.png";
-import Form from "../components/Form";
 import { useTranslation } from "react-i18next";
+import ProjectCards from "../components/Projects";
 
-function ContactPage() {
+const ProjectsPage = () => {
     const { t } = useTranslation()
     return (
         <>
             <Box {...css.contact}>
                 <Box className="container">
-                    <Heading {...css.title}>{t("Contact Us")}</Heading>
+                    <Heading {...css.title}>{t("Projects")}</Heading>
                 </Box>
             </Box>
-            <Form />
+            <ProjectCards />
         </>
     );
 }
 
-export default ContactPage;
+export default ProjectsPage;
 
 const css = {
     contact: {
         backgroundImage: `url(${ContactBanner})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        padding: "112px 0",
+        padding: "84px 0",
         backgroundRepeat: "no-repeat"
     },
     title: {
