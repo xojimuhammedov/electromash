@@ -23,14 +23,14 @@ function Footer() {
                 <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={"24px"}>
                     <Flex align={"center"} direction={"column"}>
                         <Heading {...css.name}>{t("Phone")}</Heading>
-                        <Link {...css.links} target="_blank" href={"tel:+998335898888"}>
-                            +998 33 589 88 88
+                        <Link {...css.links} target="_blank" href={"tel:+998337778899"}>
+                            +998 33 777 88 99
                         </Link>
                     </Flex>
                     <Flex align={"center"} direction={"column"}>
                         <Heading {...css.name}>{t("Email")}</Heading>
-                        <Link {...css.links} href={"mailto:info@travel4you.uz"}>
-                            info@travel4you.uz
+                        <Link {...css.links} href={"mailto:info@test.com"}>
+                            info@test.com
                         </Link>
                     </Flex>
                     <Flex align={"center"} direction={"column"}>
@@ -52,12 +52,12 @@ function Footer() {
                     <Flex direction={"column"} align={"center"}>
                         <Heading {...css.name}>{t("Social media")}</Heading>
                         <Flex mt={"12px"} gap={"12px"} align={"center"}>
-                            <Link
+                            {/* <Link
                                 href="https://www.instagram.com/whiterivertour/?next=%2Fdirect%2Finbox%2F#"
                                 target="_blank">
                                 <Image src={InstagramIcon} />
-                            </Link>
-                            <Link href="https://t.me/Ramziddin_wrt" target="_blank">
+                            </Link> */}
+                            <Link href="#" target="_blank">
                                 <Image src={TelegramIcon} />
                             </Link>
                             <Link href="/" target="_blank">
