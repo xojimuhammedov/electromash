@@ -13,6 +13,8 @@ import InstagramIcon from "../assets/instagram.svg";
 import WhatsappIcon from "../assets/whatsapp.png";
 import { useTranslation } from "react-i18next";
 
+import { Link as Alink } from 'react-router-dom'
+
 function Footer() {
     const { t } = useTranslation()
     return (
@@ -70,12 +72,16 @@ function Footer() {
                         <Link {...css.links} href="/">
                             {t("about")}
                         </Link>
-                        <Link {...css.links} href="/">
-                            {t("projects")}
-                        </Link>
-                        <Link {...css.links} href="/">
-                            {t("contacts")}
-                        </Link>
+                        <Alink to={'/project'}>
+                            <Text {...css.links}>
+                                {t("projects")}
+                            </Text>
+                        </Alink>
+                        <Alink to={'/contact'}>
+                            <Text {...css.links}>
+                                {t("contacts")}
+                            </Text>
+                        </Alink>
                     </Flex>
                 </Flex>
             </Box>

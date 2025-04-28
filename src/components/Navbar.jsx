@@ -1,6 +1,6 @@
 import { Box, Flex, Image, Link, Menu, MenuButton, MenuItem, MenuList, Text } from "@chakra-ui/react";
 import React from "react";
-import { Link as Alink } from "react-router-dom";
+import { Link as Alink, useNavigate } from "react-router-dom";
 import NavbarMenu from "./NavbarMenu";
 import Language from "./Language";
 import { useTranslation } from "react-i18next";
@@ -8,6 +8,7 @@ import { serviceData } from "../data";
 
 function Navbar() {
     const { t, i18n } = useTranslation()
+    const navigate = useNavigate()
     return (
         <Box p={"24px 0"}>
             <Box className="container">
@@ -27,7 +28,7 @@ function Navbar() {
                             <MenuList maxW={'380px'}>
                                 {
                                     serviceData?.map((item) => (
-                                        <MenuItem {...css.name}>{item[`title_${i18n?.language}`]}</MenuItem>
+                                        <MenuItem onClick={() => navigate(`/services/${item?.id}`)} {...css.name}>{item[`title_${i18n?.language}`]}</MenuItem>
                                     ))
                                 }
                             </MenuList>

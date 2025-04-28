@@ -1,6 +1,6 @@
-import { Box, Button, Flex, Link, Text, useDisclosure } from "@chakra-ui/react";
+import { Box, Button, Flex, Link, Menu, MenuButton, MenuItem, MenuList, Text, useDisclosure } from "@chakra-ui/react";
 import React from "react";
-import MenuButton from "../assets/MenuButton";
+import MenuButtonOne from "../assets/MenuButton";
 import {
   Modal,
   ModalOverlay,
@@ -10,13 +10,16 @@ import {
 } from "@chakra-ui/react";
 
 import { Link as Alink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { serviceData } from "../data";
 
 function NavbarMenu() {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const { t, i18n } = useTranslation()
   return (
     <>
       <Button {...css.button} onClick={onOpen}>
-        <MenuButton />
+        <MenuButtonOne />
       </Button>
 
       <Modal isOpen={isOpen} onClose={onClose}>
@@ -29,20 +32,27 @@ function NavbarMenu() {
               flexDirection={"column"}
               alignItems={"center"}
               gap={"36px"}>
-              <Alink onClick={onClose} to="/">
-                <Text {...css.link}>Home</Text>
+              <Alink to="/">
+                <Text {...css.link}>{t("home")}</Text>
               </Alink>
-              <Link onClick={onClose} {...css.link} href="#about">
-                About Us
+              <Link {...css.link} href="#about">
+                {t("about")}
               </Link>
-              <Link onClick={onClose} {...css.link} href="#destination">
-                Destination
-              </Link>
-              <Link onClick={onClose} href="#blog" {...css.link}>
-                Blog
-              </Link>
-              <Alink onClick={onClose} to="/contact">
-                <Text {...css.link}>Contact</Text>
+              <Menu isLazy>
+                <MenuButton {...css.link}>{t("activities")}</MenuButton>
+                <MenuList maxW={'380px'}>
+                  {
+                    serviceData?.map((item) => (
+                      <MenuItem onClick={() => navigate(`/services/${item?.id}`)} {...css.name}>{item[`title_${i18n?.language}`]}</MenuItem>
+                    ))
+                  }
+                </MenuList>
+              </Menu>
+              <Alink to="/project">
+                <Text {...css.link}>{t("projects")}</Text>
+              </Alink>
+              <Alink to="/contact">
+                <Text {...css.link}>{t("contacts")}</Text>
               </Alink>
             </Flex>
           </ModalBody>

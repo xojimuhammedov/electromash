@@ -10,7 +10,7 @@ const ProjectsPage = () => {
         <>
             <Box {...css.contact}>
                 <Box className="container">
-                    <Heading {...css.title}>{t("Projects")}</Heading>
+                    <Heading {...css.title}>{t("projects")}</Heading>
                 </Box>
             </Box>
             <ProjectCards />

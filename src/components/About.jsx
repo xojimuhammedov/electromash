@@ -28,7 +28,7 @@ const About = () => {
                             src={'https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1920/https://enimex-bg.com/wp-content/uploads/2020/12/3acfca8ba8df51bd525ba06350121d2eqcb.jpg'}
                             alt="Нашата компания"
                             width="100%"
-                            height="100%"
+                            height={{ base: "260px", lg: "100%" }}
                             objectFit="cover"
                             borderRadius="md"
                         />

@@ -10,7 +10,7 @@ function Header() {
             <div class="overlay"></div>
             <Box className="container">
                 <Heading {...css.title}>
-                    ПОВЕЧЕ ОТ 25 ГОДИНИ
+                    {t("ПОВЕЧЕ ОТ 25 ГОДИНИ")}
                 </Heading>
                 <Text {...css.text}>{t("КАЧЕСТВО И КОРЕКТНОСТ")}</Text>
             </Box>
@@ -27,7 +27,7 @@ const css = {
         backgroundPosition: "center",
         position: "relative",
         height: {
-            base: "80vh",
+            base: "60vh",
             lg: "90vh",
         },
     },
@@ -39,7 +39,7 @@ const css = {
         },
         lineHeight: {
             base: "40px",
-            lg: "88px",
+            lg: "58px",
         },
         fontWeight: "700",
         textAlign: "center",
@@ -56,7 +56,7 @@ const css = {
     text: {
         color: "#fff",
         fontSize: {
-            base: "38px",
+            base: "28px",
         },
         lineHeight: {
             base: "40px",
