@@ -76,8 +76,8 @@ export default function ProjectCards() {
             <Heading size="xl" textAlign="center" mb={2}>{t("Реализирани Проекти")}</Heading>
             <Text fontStyle="italic" textAlign="center" mb={6}>{t("По-значими изпълнени проекти")}</Text>
 
-            <Tabs width={'600px'} variant="unstyled" m={'auto'} mb={8} isFitted>
-                <TabList justifyContent="center" gap={4}>
+            <Tabs width={{ base: "100%", lg: '600px' }} variant="unstyled" m={'auto'} mb={8} isFitted>
+                <TabList flexWrap={'wrap'} justifyContent="center" gap={4}>
                     <Tab _selected={{ borderBottom: "2px solid red", color: "red.500" }}>{t("ВСИЧКИ ПРОЕКТИ")}</Tab>
                     <Tab _selected={{ borderBottom: "2px solid red", color: "red.500" }}>{t("МОНТАЖ")}</Tab>
                     <Tab _selected={{ borderBottom: "2px solid red", color: "red.500" }}>{t("РЕМОНТ")}</Tab>

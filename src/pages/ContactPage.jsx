@@ -30,7 +30,10 @@ const css = {
     },
     title: {
         color: "#fff",
-        fontSize: "48px",
+        fontSize: {
+            base: "30px",
+            lg: "48px"
+        },
         lineHeight: "52px",
         fontWeight: "600",
         textAlign: "center",

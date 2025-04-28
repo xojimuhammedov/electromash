@@ -65,7 +65,7 @@ function Footer() {
                             </Link>
                         </Flex>
                     </Flex>
-                    <Flex gap={"18px"}>
+                    <Flex justify={'center'} flexWrap={'wrap'} gap={'18px'}>
                         <Link {...css.links} href="/">
                             {t("home")}
                         </Link>
@@ -138,8 +138,14 @@ const css = {
     },
     links: {
         color: "#fff",
-        fontSize: "16px",
-        lineHeight: "24px",
+        fontSize: {
+            base: "14px",
+            lg: "16px"
+        },
+        lineHeight: {
+            base: "20px",
+            lg: "24px"
+        },
         fontWeight: "500",
         marginTop: "12px",
         transition: "0.3s",

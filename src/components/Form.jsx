@@ -144,12 +144,12 @@ const css = {
     title: {
         color: "#171717",
         fontSize: {
-            base: "32px",
+            base: "28px",
             lg: "42px",
         },
         lineHeight: {
             base: "40px",
-            lg: "58px",
+            lg: "38px",
         },
         fontWeight: "600",
         width: {

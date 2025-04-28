@@ -32,10 +32,10 @@ function NavbarMenu() {
               flexDirection={"column"}
               alignItems={"center"}
               gap={"36px"}>
-              <Alink to="/">
+              <Alink onClick={onClose} to="/">
                 <Text {...css.link}>{t("home")}</Text>
               </Alink>
-              <Link {...css.link} href="#about">
+              <Link onClick={onClose} {...css.link} href="#about">
                 {t("about")}
               </Link>
               <Menu isLazy>
@@ -43,15 +43,15 @@ function NavbarMenu() {
                 <MenuList maxW={'380px'}>
                   {
                     serviceData?.map((item) => (
-                      <MenuItem onClick={() => navigate(`/services/${item?.id}`)} {...css.name}>{item[`title_${i18n?.language}`]}</MenuItem>
+                      <MenuItem onClick={() => { navigate(`/services/${item?.id}`), onClose }} {...css.name}>{item[`title_${i18n?.language}`]}</MenuItem>
                     ))
                   }
                 </MenuList>
               </Menu>
-              <Alink to="/project">
+              <Alink onClick={onClose} to="/project">
                 <Text {...css.link}>{t("projects")}</Text>
               </Alink>
-              <Alink to="/contact">
+              <Alink onClick={onClose} to="/contact">
                 <Text {...css.link}>{t("contacts")}</Text>
               </Alink>
             </Flex>
