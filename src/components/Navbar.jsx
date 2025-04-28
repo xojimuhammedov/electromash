@@ -5,6 +5,7 @@ import NavbarMenu from "./NavbarMenu";
 import Language from "./Language";
 import { useTranslation } from "react-i18next";
 import { serviceData } from "../data";
+import LogoIcon from '../assets/logo.svg'
 
 function Navbar() {
     const { t, i18n } = useTranslation()
@@ -14,9 +15,9 @@ function Navbar() {
             <Box className="container">
                 <Flex {...css.list}>
                     <Alink to="/">
-                        Logo
+                        <Image w={'200px'} src={LogoIcon} />
                     </Alink>
-                    <Flex alignItems={"center"} gap={"36px"}>
+                    <Flex alignItems={"center"} gap={{ base: 0, lg: "36px" }}>
                         <Alink to="/">
                             <Text {...css.link}>{t("home")}</Text>
                         </Alink>
