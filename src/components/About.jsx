@@ -2,6 +2,8 @@ import { Box, Divider, Grid, GridItem, Heading, Image, Text } from '@chakra-ui/r
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
+import CompanyBanner from '../assets/company-banner.jpg'
+
 const About = () => {
     const { t } = useTranslation()
     return (
@@ -10,25 +12,33 @@ const About = () => {
                 <Grid templateColumns={{ base: "1fr", md: "1fr 1fr" }} gap={10}>
                     <GridItem>
                         <Heading as="h3" size="lg" mb={4}>
-                            {t("Нашата История")}
+                            {t("ООО <<ELECTROMASH SERVICE>> оказывают спектр услуг:")}
                         </Heading>
                         <Divider width="80px" borderColor="red.500" mb={6} />
                         <Text fontSize="lg" mb={4}>
-                            {t("about_text1")}
+                            * Монтаж и капитальный ремонт высоковольтных трансформаторов
+                            от 35 кВ до 500 кВ <br />
+                            * Строительство распределительных сетей напряжением от 0,4 кВ до
+                            500 KB <br />
+                            * Такелажный работе: перемещения крупно габаритный и тяжелей
+                            оборудования <br />
+                            * Дегазация и очистка трансформаторного масло <br />
+                            * Вакуумирования трансформаторов <br />
+                            * Регенерация трансформаторного масло <br />
                         </Text>
-                        <Text fontSize="lg" mb={4}>
+                        {/* <Text fontSize="lg" mb={4}>
                             {t("about_text2")}
                         </Text>
                         <Text fontSize="lg">
                             {t("about_text3")}
-                        </Text>
+                        </Text> */}
                     </GridItem>
                     <GridItem>
                         <Image
-                            src={'https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1920/https://enimex-bg.com/wp-content/uploads/2020/12/3acfca8ba8df51bd525ba06350121d2eqcb.jpg'}
                             alt="Нашата компания"
+                            src={CompanyBanner}
                             width="100%"
-                            height={{ base: "260px", lg: "100%" }}
+                            height={{ base: "260px", lg: "90%" }}
                             objectFit="cover"
                             borderRadius="md"
                         />

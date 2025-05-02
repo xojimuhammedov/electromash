@@ -10,8 +10,8 @@
     "Locations": "Locations",
     "Email": "Email",
     "Phone": "Phone",
-    "Нашата История": "Our History",
-    "about_text1": "With over 25 years of experience in the repair and maintenance of energy equipment, our company has established itself as a reliable partner for clients across the entire energy sector.",
+    "Нашата История": "LLC <<ELECTROMASH SERVICE>> provides a range of services:",
+    "about_text1": "* Installation and major repairs of high-voltage transformers from 35 kV to 500 kV <br /> * Construction of distribution networks with voltage from 0.4 kV to 500 KB <br /> * Rigging work: moving large-sized and heavier equipment <br /> * Degassing and cleaning of transformer oil <br /> * Evacuation of transformers <br /> * Regeneration of transformer oil <br />",
     "about_text2": "Founded in 1998, the company began its activities with the repair of power transformers. Over the years, we have expanded our expertise to offer a full range of services for the energy sector.",
     "about_text3": "Our team of highly qualified specialists ensures the completion of every project with high quality and in compliance with international standards and requirements.",
     "Contact": "Contact",
@@ -30,5 +30,6 @@
     "МОНТАЖ": "Installation",
     "Contact Us": "Contact Us",
     "Find Us on Map": "Find Us on Map",
-    "ПОВЕЧЕ ОТ 25 ГОДИНИ": "ПОВЕЧЕ ОТ 25 ГОДИНИ"
+    "OOO ELECTROMASH SERVICE": "OOO ELECTROMASH SERVICE",
+    "КАЧЕСТВО И гарантия": "QUALITY AND WARRANTY"
 }

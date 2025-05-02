@@ -60,44 +60,29 @@ export const serviceData = [
   {
     id: "diagnostics-testing",
     image: ServiceTwo,
-    title_uz: "DIAGNOSTIKA VA SINF SINOVLARI",
-    title_ru: "ДИАГНОСТИКА И КЛАССИФИКАЦИОННЫЕ ИСПЫТАНИЯ",
-    title_en: "DIAGNOSTICS AND CLASSIFICATION TESTING",
+    title_uz: "Maxsus diagnostika testlari",
+    title_ru: "Специализированный диагностический анализы",
+    title_en: "Specialized diagnostic tests",
     description_uz: `
-     <p style="text-align:center">Quvvat transformatorlari va reaktorlarning texnik holatini baholash uchun batafsil diagnostika va sinov xizmatlari. 
-      Zamonaviy sinov uskunalarimiz yordamida izolyatsiya holati, bobinlar sifati va transformatorning umumiy ishlash ko'rsatkichlarini aniqlaymiz. </p>
-      <br />
-      Bizning xizmatlarimiz quyidagilarni o'z ichiga oladi:
-      <br />
-      • DC qarshilik o‘lchovi. <br />
-      • Transformator yog'ining dielektrik kuchini tekshirish. <br />
-      • Yog‘ni gazli xromatografik tahlil qilish. <br />
-      • Transformatorlarda qisqa tutashuv va to'liq dielektrik diagnostika. <br />
-      • Keng qamrovli hisob-kitob va tahlil xulosalari bilan ta'minlash.
+      Namlikni aniqlash - IEC 60814; <br />
+      elektr quvvatini aniqlash - IEC 60156; <br />
+      kislotalilikni aniqlash - IEC 60296; <br />
+      dielektrik tarqalish koeffitsientini (DDF) aniqlash - IEC 60247; <br />
+      Eritilgan gaz tahlili (DGA) - IEC 60567 va IEC 60599; <br />
     `,
     description_ru: `
-      <p style="text-align:center">Подробная диагностика и испытания для оценки технического состояния силовых трансформаторов и реакторов. 
-      С помощью современного испытательного оборудования мы определяем состояние изоляции, качество обмоток и общие эксплуатационные характеристики трансформатора.</p>
-      <br />
-      Наши услуги включают:
-      <br />
-      • Измерение сопротивления постоянному току. <br />
-      • Испытание диэлектрической прочности трансформаторного масла. <br />
-      • Газохроматографический анализ масла. <br />
-      • Диэлектрическая диагностика и определение коротких замыканий. <br />
-      • Предоставление всесторонних расчетов и заключений.
+      определение влажности - IEC 60814; <br />
+      определение электрической прочности — IEC 60156; <br />
+      определение кислотности - IEC 60296;  <br />
+      определение тангенса угла диэлектрических потерь (DDF) - IEC 60247;  <br />
+      анализ растворенных газов (DGA) - IEC 60567 и IEC 60599; <br />
     `,
     description_en: `
-      <p style="text-align:center">Detailed diagnostics and testing services to assess the technical condition of power transformers and reactors. 
-      Using advanced testing equipment, we determine the insulation condition, winding quality, and overall transformer performance.</p>
-      <br />
-      Our services include:
-      <br />
-      • DC resistance measurement. <br />
-      • Transformer oil dielectric strength testing. <br />
-      • Gas chromatographic analysis of oil. <br />
-      • Detection of short circuits and full dielectric diagnostics. <br />
-      • Providing comprehensive calculations and analysis reports.
+      Determination of humidity - IEC 60814;<br />
+      Determination of electric strength - IEC 60156;<br />
+      Determination of acidity - IEC 60296;<br />
+      Determination of dielectric dissipation factor (DDF) - IEC 60247;<br />
+      Dissolved gas analysis (DGA) - IEC 60567 and IEC 60599;<br />
     `,
   },
   {

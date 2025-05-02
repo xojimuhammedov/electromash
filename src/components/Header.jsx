@@ -10,9 +10,9 @@ function Header() {
             <div class="overlay"></div>
             <Box className="container">
                 <Heading {...css.title}>
-                    {t("ПОВЕЧЕ ОТ 25 ГОДИНИ")}
+                    {t("OOO ELECTROMASH SERVICE")}
                 </Heading>
-                <Text {...css.text}>{t("КАЧЕСТВО И КОРЕКТНОСТ")}</Text>
+                <Text {...css.text}>{t("КАЧЕСТВО И гарантия")}</Text>
             </Box>
         </Box>
     );
@@ -35,7 +35,7 @@ const css = {
         color: "#fff",
         fontSize: {
             base: "32px",
-            lg: "76px",
+            lg: "70px",
         },
         lineHeight: {
             base: "40px",
@@ -48,7 +48,7 @@ const css = {
         zIndex: "999",
         width: {
             base: "100%",
-            lg: "1050px",
+            lg: "1150px",
         },
         margin: "auto",
         paddingTop: "150px",
@@ -57,6 +57,7 @@ const css = {
         color: "#fff",
         fontSize: {
             base: "28px",
+            lg: "40px"
         },
         lineHeight: {
             base: "40px",
@@ -67,6 +68,7 @@ const css = {
         margin: "12px 0",
         position: "relative",
         zIndex: "999",
+        textTransform: "uppercase"
     },
     button: {
         backgroundColor: "#27ac5e",

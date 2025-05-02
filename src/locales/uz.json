@@ -10,8 +10,8 @@
     "Locations": "Manzillar",
     "Email": "Elektron pochta",
     "Phone": "Telefon",
-    "Нашата История": "Bizning tariximiz",
-    "about_text1": "Energiya uskunalarini ta'mirlash va texnik xizmat ko‘rsatish sohasida 25 yildan ortiq tajribaga ega bo‘lgan kompaniyamiz butun energetika sektori bo‘ylab ishonchli hamkor sifatida tan olingan.",
+    "Нашата История": "<<ELECTROMASH SERVICE>> MChJ bir qator xizmatlarni taqdim etadi:",
+    "about_text1": "* 35 kV dan 500 kV gacha bo'lgan yuqori voltli transformatorlarni o'rnatish va kapital ta'mirlash <br /> * 0,4 kV dan 500 KB gacha kuchlanishli taqsimlash tarmoqlarini qurish <br /> * Armalash ishlari: katta va og'irroq jihozlarni ko'chirish <br /> * Transformatorlarni gazdan tozalash va tozalash <br /> <br /> Transformator moyini qayta tiklash <br />",
     "about_text2": "1998 yilda tashkil topgan kompaniya o‘z faoliyatini kuch transformatorlarini ta'mirlash bilan boshlagan. Yillar davomida biz o‘z tajribamizni kengaytirib, energetika sohasiga to‘liq xizmat ko‘rsatishni yo‘lga qo‘ydik.",
     "about_text3": "Yuqori malakali mutaxassislarimiz har bir loyihani yuqori sifatda va xalqaro standartlarga muvofiq bajarilishini ta'minlaydi.",
     "Contact": "Aloqa",
@@ -29,5 +29,7 @@
     "РЕМОНТ": "Ta'mirlash",
     "МОНТАЖ": "O'rnatish",
     "Contact Us": "Biz bilan bog‘laning",
-    "Find Us on Map": "Bizni xaritada toping"
+    "Find Us on Map": "Bizni xaritada toping",
+    "OOO ELECTROMASH SERVICE": "OOO ELECTROMASH SERVICE",
+    "КАЧЕСТВО И гарантия": "SIFAT VA KAFOLAT"
 }

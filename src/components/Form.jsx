@@ -121,7 +121,7 @@ function Form() {
                     {t("text")}
                 </Text>
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.142235111557!2d69.26869407587436!3d41.30576927131033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b275d9925db%3A0x10f8036f160affd6!2sChimkent%20Street%207%2C%20100114%2C%20Tashkent%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1734779455096!5m2!1sen!2s"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2995.320591454007!2d69.30613207605755!3d41.34538497130517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIwJzQzLjQiTiA2OcKwMTgnMzEuNCJF!5e0!3m2!1sen!2s!4v1746208424855!5m2!1sen!2s"
                     className="form-map"
                     style={{ border: 0 }}
                     allowFullScreen=""

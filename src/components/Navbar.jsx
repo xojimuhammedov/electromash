@@ -11,11 +11,11 @@ function Navbar() {
     const { t, i18n } = useTranslation()
     const navigate = useNavigate()
     return (
-        <Box p={"24px 0"}>
+        <Box p={"12px 0"}>
             <Box className="container">
                 <Flex {...css.list}>
                     <Alink to="/">
-                        <Image w={'200px'} src={LogoIcon} />
+                        <Image w={{ base: "200px", lg: '280px' }} src={LogoIcon} />
                     </Alink>
                     <Flex alignItems={"center"} gap={{ base: 0, lg: "36px" }}>
                         <Alink to="/">
@@ -55,7 +55,7 @@ const css = {
     image: {
         width: {
             base: "120px",
-            lg: "150px",
+            lg: "180px",
         },
     },
     link: {

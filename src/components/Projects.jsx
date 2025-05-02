@@ -84,7 +84,7 @@ export default function ProjectCards() {
             </Tabs>
 
             <SimpleGrid columns={{ base: 1, md: 3 }} mt={'60px'} spacing={6}>
-                {projects.map((project, index) => (
+                {projects?.map((project, index) => (
                     <Box key={index} boxShadow="md" borderRadius="xl" overflow="hidden" _hover={{ transform: "scale(1.02)", boxShadow: "lg" }} transition="all 0.3s">
                         <Image src={project.image} alt={project.title} objectFit="cover" w="100%" h="200px" />
                         <Box p={4}>
