@@ -19,6 +19,7 @@ const ServicesAboutPage = () => {
                     dangerouslySetInnerHTML={{
                         __html: aboutData[`description_${i18n?.language}`]
                     }}
+                    {...css.text}
                 />
             </Box>
         </Box>
@@ -41,5 +42,9 @@ const css = {
         fontWeight: "600",
         margin: "24px 0",
         textAlign: "center"
+    },
+    text: {
+        fontSize: "18px",
+        lineHeight: "32px"
     }
 }
