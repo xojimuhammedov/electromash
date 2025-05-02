@@ -31,7 +31,7 @@ const Services = () => {
                                 />
                             </Box>
                             <Box p={5}>
-                                <Heading as="h3" size="md" mb={2}>
+                                <Heading textTransform="uppercase" as="h3" size="md" mb={2}>
                                     {service[`title_${i18n?.language}`]}
                                 </Heading>
                                 <Divider borderColor="red.500" width="50px" mb={4} />
