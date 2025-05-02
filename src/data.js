@@ -1,6 +1,6 @@
 import ServiceOne from './assets/service-1.jpg'
 import ServiceTwo from './assets/service2.jpg'
-import ServiceThree from './assets/service3.jpg'
+import ServiceThree from './assets/service8.jpg'
 import ServiceFour from './assets/service4.jpg'
 import ServiceFive from './assets/service5.jpg'
 import ServiceSeven from './assets/service7.jpg'
