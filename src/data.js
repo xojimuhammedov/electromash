@@ -151,7 +151,21 @@ export const serviceData = [
     title_uz: "ELEKTR MONTAJ VA TA'MIRLASH ISHLARI",
     title_ru: "СПЕЦИАЛИЗИРОВАННОЕ ОБОРУДОВАНИЕ",
     title_en: "ELECTRICAL INSTALLATION AND REPAIR WORKS",
-    description_uz: "Yuqori sifatli elektr montaj va ta'mirlash ishlari...",
+    description_uz: `
+Ishlayotgan nimstansiyalar hududida 35 dan 500 kV gacha kuchlanishli quvvat transformatorlarida ta'mirlash ishlarini bajarish uchun ta'mirlash texnologiyasiga muvofiq zarur ishlarni amalga oshirishga imkon beruvchi mobil uskunalardan foydalaniladi:
+<br/> <b>O'rnatish</b> <br/>
+Quvvat transformatorlarining podstansiya ichida ko'tarish mexanizmlaridan foydalanmasdan harakatlanishini ta'minlash uchun maxsus armatura uskunalari talab qilinadi. Ishlayotgan podstansiyalar hududida yuk ko'tarish moslamalarini ishlatish har doim ham yuqori umumiy o'lchamlari va og'irlik xususiyatlari, shuningdek podstansiyadagi cheklangan joy tufayli mumkin emas. 
+<br /> <b>Quruq havo generatori</b> <br />
+Qo'shimchalarni olib tashlash va transformator idishining qopqog'ini faol qismni ho'llamasdan ko'tarish uchun transformatorga quruq havo etkazib beradigan birlik kerak. 
+<br /> <b>Vakuum o'rnatish</b> <br />
+Transformatorda vakuum hosil qilish imkonini beradi va transformatorning faol qismini, shuningdek, uning yakuniy yig'ilishini quritish uchun ishlatiladi. 
+<br /> <b>Gazsizlantirish qurilmasi</b> <br />
+U transformatorning izolyatsion qarshiligini tiklash uchun ham, transformator moyini tayyorlash va to'ldirish uchun ham qo'llaniladi. 
+<br /> <b>FOSN filtri</b> <br />
+Transformator moyidan aralashmalarni olib tashlash, shuningdek, yog'ning dielektrik yo'qotish tangensining qiymatini tiklash kerak. 
+<br /> <b>Texnologik tanklar.</b> <br />
+Transformator moyi tarkibida hech qanday aralashma bo'lmasligi kerak, shuning uchun uni faqat maxsus tayyorlangan idishlarga quyish mumkin. Transformatordan olib tashlash uchun zarur bo'lgan transformator moyining hajmi o'nlab tonnani tashkil qilishi mumkin, shuning uchun ta'mirlash uchun tanklarga ega bo'lish shart. 
+`,
     description_ru: `
     Для проведения работ по ремонту силовых трансформаторов напряжением от 35 до 500 кВ на территории действующих подстанций применяется мобильное оборудование, позволяющее выполнить требуемые мероприятия в соответствии с технологией ремонта:
      <br/>  <b>Такелаж</b> <br/>
@@ -167,6 +181,20 @@ export const serviceData = [
     <br /> <b>Технологические емкости.</b> <br />
     Трансформаторное масло не должно содержать никаких примесей, в связи с чем переливать его можно только в специально подготовленные емкости. Объем трансформаторного масла, необходимого к изъятию из трансформатора может составлять десятки тонн, поэтому наличие емкостей для проведения ремонта является обязательным.
     `,
-    description_en: "High-quality electrical installation and repair works...",
+    description_en: `
+To perform repair work on power transformers with a voltage of 35 to 500 kV on the territory of operating substations, mobile equipment is used, which allows performing the required activities in accordance with the repair technology:
+<br/> <b>Rigging</b> <br/>
+To ensure the movement of power transformers on the territory of the substation without the use of lifting mechanisms, special rigging equipment is required. The use of lifting equipment on the territory of operating substations is not always possible due to high overall dimensions and weight characteristics, as well as limited space at the substation.
+<br /> <b>Dry air generator</b> <br />
+To remove attachments, as well as lift the transformer tank cover without moistening the active part, an installation is required to supply dry air to the transformer.
+<br /> <b>Vacuum unit</b> <br />
+Allows you to create a vacuum in the transformer and is used for drying the active part of the transformer, as well as its final assembly.
+<br /> <b>Degassing unit</b> <br />
+It is used both to restore the insulation resistance of the transformer, and to prepare and fill the transformer oil.
+<br /> <b>FOSN filter</b> <br />
+It is necessary to remove impurities from the transformer oil, as well as to restore the value of the dielectric loss tangent of the oil.
+<br /> <b>Technological containers.</b> <br />
+Transformer oil should not contain any impurities, and therefore it can only be poured into specially prepared containers. The volume of transformer oil required for removal from the transformer can be tens of tons, so the presence of containers for repairs is mandatory.
+`,
   },
 ];
