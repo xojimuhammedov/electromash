@@ -139,7 +139,7 @@ export const serviceData = [
     id: "electrical-installation-1",
     image: ServiceFive,
     title_uz: "ELEKTR MONTAJ VA TA'MIRLASH ISHLARI",
-    title_ru: "ЭЛЕКТРОЛАБОРАТОРA РАБОТA",
+    title_ru: "Электротехнический лаборатория",
     title_en: "ELECTRICAL INSTALLATION AND REPAIR WORKS",
     description_uz: "",
     description_ru: "",

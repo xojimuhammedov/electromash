@@ -8,12 +8,12 @@ const ProjectsPage = () => {
     const { t } = useTranslation()
     return (
         <>
-            <Box {...css.contact}>
+            <Box mb={'48px'} {...css.contact}>
                 <Box className="container">
                     <Heading {...css.title}>{t("projects")}</Heading>
                 </Box>
             </Box>
-            <ProjectCards />
+            {/* <ProjectCards /> */}
         </>
     );
 }
