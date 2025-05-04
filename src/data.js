@@ -183,11 +183,11 @@ Transformator moyi tarkibida hech qanday aralashma bo'lmasligi kerak, shuning uc
     `,
     description_en: `
 To perform repair work on power transformers with a voltage of 35 to 500 kV on the territory of operating substations, mobile equipment is used, which allows performing the required activities in accordance with the repair technology:
-<br/> <b>Rigging</b> <br/>
+<br/> <b>Skidding system</b> <br/>
 To ensure the movement of power transformers on the territory of the substation without the use of lifting mechanisms, special rigging equipment is required. The use of lifting equipment on the territory of operating substations is not always possible due to high overall dimensions and weight characteristics, as well as limited space at the substation.
 <br /> <b>Dry air generator</b> <br />
 To remove attachments, as well as lift the transformer tank cover without moistening the active part, an installation is required to supply dry air to the transformer.
-<br /> <b>Vacuum unit</b> <br />
+<br /> <b>Vacuum pump system</b> <br />
 Allows you to create a vacuum in the transformer and is used for drying the active part of the transformer, as well as its final assembly.
 <br /> <b>Degassing unit</b> <br />
 It is used both to restore the insulation resistance of the transformer, and to prepare and fill the transformer oil.
