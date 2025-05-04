@@ -23,8 +23,11 @@ function Footer() {
                 <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={"24px"}>
                     <Flex align={"center"} direction={"column"}>
                         <Heading {...css.name}>{t("Phone")}</Heading>
-                        <Link {...css.links} target="_blank" href={"tel:+998337778899"}>
-                            +998 33 777 88 99
+                        <Link {...css.links} target="_blank" href={"tel:+998950440087"}>
+                            +998 95 044 00 87
+                        </Link>
+                        <Link {...css.links} target="_blank" href={"tel:+998911630087"}>
+                            +998 91 163 00 87
                         </Link>
                     </Flex>
                     <Flex align={"center"} direction={"column"}>
@@ -38,7 +41,7 @@ function Footer() {
                         <Link
                             {...css.links}
                             target="_blank"
-                            href={"https://maps.app.goo.gl/SWr6Dqkd9X9S79iz6"}>
+                            href={"https://maps.app.goo.gl/aBud2GzZBPmMrTk5A"}>
                             Uzbekistan, Tashkent city
                         </Link>
                     </Flex>

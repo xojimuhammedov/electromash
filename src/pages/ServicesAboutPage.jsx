@@ -37,14 +37,26 @@ const css = {
         width: "100%"
     },
     title: {
-        fontSize: "28px",
-        lineHeight: "35px",
+        fontSize: {
+            base: "18px",
+            lg: "28px"
+        },
+        lineHeight: {
+            base: "25px",
+            lg: "35px"
+        },
         fontWeight: "600",
         margin: "24px 0",
         textAlign: "center"
     },
     text: {
-        fontSize: "18px",
-        lineHeight: "32px"
+        fontSize: {
+            base: "14px",
+            lg: "18px"
+        },
+        lineHeight: {
+            base: "22px",
+            lg: "32px"
+        }
     }
 }

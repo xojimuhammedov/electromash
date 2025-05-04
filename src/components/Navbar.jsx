@@ -63,6 +63,7 @@ const css = {
         lineHeight: "24px",
         fontWeight: "500",
         color: "#171717",
+        textTransform: "uppercase",
         transition: "0.3s",
         display: {
             base: "none",

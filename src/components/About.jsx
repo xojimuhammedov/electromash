@@ -11,7 +11,7 @@ const About = () => {
             <Box className='container'>
                 <Grid templateColumns={{ base: "1fr", md: "1fr 1fr" }} gap={10}>
                     <GridItem>
-                        <Heading as="h3" size="lg" mb={4}>
+                        <Heading as="h3" size={{ base: "md", lg: "lg" }} mb={4}>
                             {t("ООО <<ELECTROMASH SERVICE>> оказывают спектр услуг:")}
                         </Heading>
                         <Divider width="80px" borderColor="red.500" mb={6} />
