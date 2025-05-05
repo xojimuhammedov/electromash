@@ -185,7 +185,7 @@ To ensure the movement of power transformers on the territory of the substation 
 To remove attachments, as well as lift the transformer tank cover without moistening the active part, an installation is required to supply dry air to the transformer.
 <br /> <b>Vacuum pump system</b> <br />
 Allows you to create a vacuum in the transformer and is used for drying the active part of the transformer, as well as its final assembly.
-<br /> <b>Degassing unit</b> <br />
+<br /> <b>Transformer oil purification machine</b> <br />
 It is used both to restore the insulation resistance of the transformer, and to prepare and fill the transformer oil.
 <br /> <b>Technological containers.</b> <br />
 Transformer oil should not contain any impurities, and therefore it can only be poured into specially prepared containers. The volume of transformer oil required for removal from the transformer can be tens of tons, so the presence of containers for repairs is mandatory.

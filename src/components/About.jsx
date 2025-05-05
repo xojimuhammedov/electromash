@@ -20,14 +20,6 @@ const About = () => {
                             __html: t("about_text1")
                         }}
                         />
-                            
-                    
-                        {/* <Text fontSize="lg" mb={4}>
-                            {t("about_text2")}
-                        </Text>
-                        <Text fontSize="lg">
-                            {t("about_text3")}
-                        </Text> */}
                     </GridItem>
                     <GridItem>
                         <Image
