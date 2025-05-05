@@ -29,7 +29,7 @@ function Navbar() {
                             <MenuList maxW={'380px'}>
                                 {
                                     serviceData?.map((item) => (
-                                        <MenuItem onClick={() => navigate(`/services/${item?.id}`)} {...css.name}>{item[`title_${i18n?.language}`]}</MenuItem>
+                                        <MenuItem textTransform={'uppercase'} onClick={() => navigate(`/services/${item?.id}`)} {...css.name}>{item[`title_${i18n?.language}`]}</MenuItem>
                                     ))
                                 }
                             </MenuList>

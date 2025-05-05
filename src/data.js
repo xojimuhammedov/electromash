@@ -87,7 +87,7 @@ export const serviceData = [
   },
   {
     id: "oil-handling",
-    image: ServiceThree,
+    image: ServiceOne,
     title_uz: "TRANSFORMATOR YOG'I BILAN ISHLASH",
     title_ru: "РАБОТА С ТРАНСФОРМАТОРНЫМ МАСЛОМ",
     title_en: "WORKING WITH TRANSFORMER OIL",
@@ -140,7 +140,7 @@ export const serviceData = [
     image: ServiceFive,
     title_uz: "ELEKTR MONTAJ VA TA'MIRLASH ISHLARI",
     title_ru: "Электротехнический лаборатория",
-    title_en: "ELECTRICAL INSTALLATION AND REPAIR WORKS",
+    title_en: "Electrical engineering laboratory",
     description_uz: "",
     description_ru: "",
     description_en: ""
@@ -150,7 +150,7 @@ export const serviceData = [
     image: ServiceSeven,
     title_uz: "ELEKTR MONTAJ VA TA'MIRLASH ISHLARI",
     title_ru: "СПЕЦИАЛИЗИРОВАННОЕ ОБОРУДОВАНИЕ",
-    title_en: "ELECTRICAL INSTALLATION AND REPAIR WORKS",
+    title_en: "SPECIALISED EQUIPMENT",
     description_uz: `
 Ishlayotgan nimstansiyalar hududida 35 dan 500 kV gacha kuchlanishli quvvat transformatorlarida ta'mirlash ishlarini bajarish uchun ta'mirlash texnologiyasiga muvofiq zarur ishlarni amalga oshirishga imkon beruvchi mobil uskunalardan foydalaniladi:
 <br/> <b>O'rnatish</b> <br/>
@@ -161,8 +161,6 @@ Qo'shimchalarni olib tashlash va transformator idishining qopqog'ini faol qismni
 Transformatorda vakuum hosil qilish imkonini beradi va transformatorning faol qismini, shuningdek, uning yakuniy yig'ilishini quritish uchun ishlatiladi. 
 <br /> <b>Gazsizlantirish qurilmasi</b> <br />
 U transformatorning izolyatsion qarshiligini tiklash uchun ham, transformator moyini tayyorlash va to'ldirish uchun ham qo'llaniladi. 
-<br /> <b>FOSN filtri</b> <br />
-Transformator moyidan aralashmalarni olib tashlash, shuningdek, yog'ning dielektrik yo'qotish tangensining qiymatini tiklash kerak. 
 <br /> <b>Texnologik tanklar.</b> <br />
 Transformator moyi tarkibida hech qanday aralashma bo'lmasligi kerak, shuning uchun uni faqat maxsus tayyorlangan idishlarga quyish mumkin. Transformatordan olib tashlash uchun zarur bo'lgan transformator moyining hajmi o'nlab tonnani tashkil qilishi mumkin, shuning uchun ta'mirlash uchun tanklarga ega bo'lish shart. 
 `,
@@ -176,8 +174,6 @@ Transformator moyi tarkibida hech qanday aralashma bo'lmasligi kerak, shuning uc
     Позволяет создать вакуум в трансформаторе и применяется при сушке активной части трансформатора, а также его финальной сборке. 
      <br /> <b>Дегазационная установка</b> <br />
     Применяется как для восстановления сопротивления изоляции трансформатора, так и для подготовки и заливки трансформаторного масла. 
-     <br /> <b>Фильтр ФОСН</b> <br />
-    Необходим для устранения примесей из трансформаторного масла, а также восстановления значения тангенса угла диэлектрических потерь масла. 
     <br /> <b>Технологические емкости.</b> <br />
     Трансформаторное масло не должно содержать никаких примесей, в связи с чем переливать его можно только в специально подготовленные емкости. Объем трансформаторного масла, необходимого к изъятию из трансформатора может составлять десятки тонн, поэтому наличие емкостей для проведения ремонта является обязательным.
     `,
@@ -191,8 +187,6 @@ To remove attachments, as well as lift the transformer tank cover without moiste
 Allows you to create a vacuum in the transformer and is used for drying the active part of the transformer, as well as its final assembly.
 <br /> <b>Degassing unit</b> <br />
 It is used both to restore the insulation resistance of the transformer, and to prepare and fill the transformer oil.
-<br /> <b>FOSN filter</b> <br />
-It is necessary to remove impurities from the transformer oil, as well as to restore the value of the dielectric loss tangent of the oil.
 <br /> <b>Technological containers.</b> <br />
 Transformer oil should not contain any impurities, and therefore it can only be poured into specially prepared containers. The volume of transformer oil required for removal from the transformer can be tens of tons, so the presence of containers for repairs is mandatory.
 `,
