@@ -32,8 +32,8 @@ function Footer() {
                     </Flex>
                     <Flex align={"center"} direction={"column"}>
                         <Heading {...css.name}>{t("Email")}</Heading>
-                        <Link {...css.links} href={"mailto:info@test.com"}>
-                            info@test.com
+                        <Link {...css.links} href={"mailto:electromashuz@gmail.com"}>
+                        electromashuz@gmail.com
                         </Link>
                     </Flex>
                     <Flex align={"center"} direction={"column"}>
