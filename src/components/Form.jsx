@@ -40,8 +40,8 @@ function Form() {
     };
 
     let bot = {
-        TOKEN: "7387858859:AAFc_blnJnd64JG3OcUQHjz4BkYyv3OQPiA",
-        chatID: "-1002325832754",
+        TOKEN: "7633304026:AAHRMnxEcPGBnhKlwwkTNMxJqT_ErYROf6M",
+        chatID: "-1002553263929",
         message: `
           Assalomu alaykum sizga yangi xabar!%0A
           %0AIsmi 👤: ${nameValue}; 
