@@ -12,7 +12,7 @@ import ProjectsPage from './pages/ProjectsPage'
 function App() {
   return (
     <>
-     <Navbar />Add commentMore actions
+     <Navbar />
       <Routes>
         <Route path='/' element={
           <>
